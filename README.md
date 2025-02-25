@@ -69,7 +69,7 @@ $ terraform init
 $ terraform apply
 ```
 
-:heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.
+:heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
 <br>
 Run `terraform destroy` when you don't need these resources.
 
