@@ -62,7 +62,7 @@ Inside this folder you can find ready-to-use Terraform scripts.<br>
 <br>
 
 ### Run the script:
-Select your desired script from `/vagrant/terrafrom/` and run it.
+Select your desired script from `/vagrant/terrafrom/` and run it:
 ```bash
 cd 1*
 terraform init
@@ -73,8 +73,10 @@ terraform apply
 <br>
 
 ### Destroy the script:
-Run `terraform destroy` to remove all script resources.
-
+Remove all script resources:
+```bash
+terraform destroy
+```bash
 <br>
 
 <a id="terraform-scripts"></a>
