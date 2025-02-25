@@ -8,7 +8,7 @@ Including some ready-to-use <a href="#terraform-scripts">Terraform scripts</a>.
 <br>
 ## Prerequisites
 
-### * Install Vagrant:
+### Install Vagrant:
 
 To run this Virtual Machine you need first to install Vagrant by HashiCorp
 
@@ -21,9 +21,9 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
   ```
 <br>
 
-### * Define the connection to your AWS account:
+### Define the connection to your AWS account:
 
-* Inside your [AWS Console](https://us-east-1.console.aws.amazon.com/):
+Inside your [AWS Console](https://us-east-1.console.aws.amazon.com/):
 1. Create an `AWS IAM User` with Permissions Policies: "`AdministratorAccess`" 
 2. Create `CLI Access Key` and download the `.csv` file
 3. Move the `.csv` file to the Vagrant directory
@@ -32,9 +32,8 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
 <br>
 
 ## Getting Started
-<br>
 
-### Start the Virtal Machine
+### Start the Virtal Machine:
 
 Inside the Vagrant directory, execute these commands:
 
@@ -43,16 +42,19 @@ $ vagrant init
 $ vagrant up
 ```
 
-### Log into the VM
+### Log into the Virtual Machine:
 
-When the VM is up, log in to the VM with:
+After the VM is up, log in to it:
 
 ```bash
 $ vagrant ssh
 ```
+<br>
 Setup is done, Your Terraform Machine is ready!
 
 Use `terraform version` to ensure that a the installation was successfull.
+<br>
+<br>
 
 ## Ready-to-Use Terraform Scripts
 
@@ -60,14 +62,14 @@ Inside the VM there is a directory that shared with the host: `/vagrant/terrafro
 Inside this folder you can find ready-to-use Terraform scripts.<br>
 <br>
 
-* Select your desired script from `/vagrant/terrafrom/` and run it.
+Select your desired script from `/vagrant/terrafrom/` and run it.
 ```bash
 $ cd 1*
 $ terraform init
 $ terraform apply
 ```
 
-Note that this action may create AWS resources which can cost money.<br>
+:heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
 Run `terraform destroy` when you don't need these resources.
 
 <a id="terraform-scripts"></a>
