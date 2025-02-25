@@ -7,9 +7,7 @@ Includes some Terraform scrips ready-to-use.
 
 There are public, private, database, ElastiCache, intra (private w/o Internet access) subnets, and NAT Gateways created in each availability zone. -->
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 ### Install Vagrant
 
@@ -23,13 +21,17 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
   brew install hashicorp/tap/hashicorp-vagrant
   ```
 
+
 ### Define the connection to your AWS account
 
 * Inside the AWS Console:
-1 - Create an AWS IAM User with Permissions Policies: "AdministratorAccess" 
-2 - Create CLI Access Key and download the .csv file
-3 - Move the .csv file to the Vagrant directory
-4 - Remove Any other .csv files (exampleUser_accessKeys.csv)
+1. Create an AWS IAM User with Permissions Policies: "AdministratorAccess" 
+2. Create CLI Access Key and download the .csv file
+3. Move the .csv file to the Vagrant directory
+4. Remove Any other .csv files (exampleUser_accessKeys.csv)
+
+
+## Getting Started
 
 ### Start the Virtal Machine
 
@@ -55,5 +57,4 @@ Use `terraform version` to ensure that a the installation was successfull.
 
 Inside the VM there is a shared folder with the host: `/vagrant/terrafrom/`
 In this folder you can find ready-to-use Terraform scripts.
-
 
