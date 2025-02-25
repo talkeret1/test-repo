@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 # Vagrant VM: Ubuntu 20.04 + Terraform Engine
 
 Easily creates a Vagrant Virtual Machine with Terraform platform.
@@ -55,17 +56,13 @@ Use `terraform version` to ensure that a the installation was successfull.
 
 ## Ready-to-Use Terraform Scripts
 
-Inside the VM there is a shared folder with the host: `/vagrant/terrafrom/`
+Inside the VM there is a directory that shared with the host: `/vagrant/terrafrom/`
 
-In this folder you can find ready-to-use Terraform scripts.
+Inside this folder you can find ready-to-use Terraform scripts.
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+# Terraform Scripts List:
 
 * [1-UbuntuInstance](/terraform/1-UbuntuInstance/README.md) - AWS Instance with Ubuntu 20.04
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [2-UbuntuWebServer](/terraform/2-UbuntuWebServer/README.md) - Ubuntu 20.04 with Apache2 HTTP Web Server
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
