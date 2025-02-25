@@ -61,7 +61,7 @@ Inside the VM there is a directory that shared with the host: `/vagrant/terrafro
 Inside this folder you can find ready-to-use Terraform scripts.<br>
 <br>
 
-## Run the script:
+### Run the script:
 Select your desired script from `/vagrant/terrafrom/` and run it.
 ```bash
 cd 1*
@@ -72,7 +72,7 @@ terraform apply
 :heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
 <br>
 
-## Destroy the script:
+### Destroy the script:
 Run `terraform destroy` to remove all script resources.
 
 <a id="terraform-scripts"></a>
