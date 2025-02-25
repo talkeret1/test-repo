@@ -48,6 +48,8 @@ After the VM is up, log in to it:
 ```bash
 vagrant ssh
 ```
+* To stop the VM Use: `vagrant halt`
+* To destroy the VM Use: `vagrant destroy`
 <br>
 Setup is done, Your Terraform Machine is ready!
 
@@ -73,7 +75,7 @@ terraform apply
 <br>
 
 ### Destroy the script:
-Remove all script resources:
+Remove all the script resources:
 ```bash
 terraform destroy
 ```
