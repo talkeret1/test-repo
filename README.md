@@ -19,7 +19,6 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
   brew tap hashicorp/tap
   brew install hashicorp/tap/hashicorp-vagrant
   ```
-<br>
 
 ### Define the connection to your AWS account:
 
@@ -62,6 +61,7 @@ Inside the VM there is a directory that shared with the host: `/vagrant/terrafro
 Inside this folder you can find ready-to-use Terraform scripts.<br>
 <br>
 
+## Run the script:
 Select your desired script from `/vagrant/terrafrom/` and run it.
 ```bash
 cd 1*
@@ -71,7 +71,9 @@ terraform apply
 
 :heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
 <br>
-Run `terraform destroy` when you don't need these resources.
+
+## Destroy the script:
+Run `terraform destroy` to remove all script resources.
 
 <a id="terraform-scripts"></a>
 ### Terraform Scripts List:
