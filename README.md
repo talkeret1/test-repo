@@ -1,12 +1,8 @@
 <a id="readme-top"></a>
-# Vagrant VM: Ubuntu 20.04 + Terraform Engine
+# Vagrant VM: Ubuntu 20.04 with Terraform Engine
 
 Easily creates a Vagrant Virtual Machine with Terraform platform,<br>
 Including some Terraform scrips ready-to-use.
-
-<!-- Configuration in this directory creates set of VPC resources which may be sufficient for staging or production environment (look into [simple](../simple) for more simplified setup).
-
-There are public, private, database, ElastiCache, intra (private w/o Internet access) subnets, and NAT Gateways created in each availability zone. -->
 
 ## Prerequisites
 
@@ -21,7 +17,7 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
   brew tap hashicorp/tap
   brew install hashicorp/tap/hashicorp-vagrant
   ```
-
+<br>
 
 ### Define the connection to your AWS account:
 
@@ -30,9 +26,11 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
 2. Create `CLI Access Key` and download the `.csv` file
 3. Move the `.csv` file to the Vagrant directory
 4. Remove Any other `.csv` files (exampleUser_accessKeys.csv)
-
+<br>
+<br>
 
 ## Getting Started
+<br>
 
 ### Start the Virtal Machine
 
@@ -56,18 +54,18 @@ Use `terraform version` to ensure that a the installation was successfull.
 
 ## Ready-to-Use Terraform Scripts
 
-Inside the VM there is a directory that shared with the host: `/vagrant/terrafrom/`
-Inside this folder you can find ready-to-use Terraform scripts.
-Select your desired script and run it.
+Inside the VM there is a directory that shared with the host: `/vagrant/terrafrom/`<br>
+Inside this folder you can find ready-to-use Terraform scripts.<br>
+<br>
 
-* /vagrant/terrafrom/
+* Select your desired script from `/vagrant/terrafrom/` and run it.
 ```bash
 $ cd 1*
 $ terraform init
 $ terraform apply
 ```
 
-Note that this action may create AWS resources which can cost money. 
+Note that this action may create AWS resources which can cost money.<br>
 Run `terraform destroy` when you don't need these resources.
 
 ### Terraform Scripts List:
