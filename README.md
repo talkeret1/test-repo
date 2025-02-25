@@ -6,11 +6,9 @@ Easily creates a Vagrant Virtual Machine with Terraform platform.<br>
 Including some ready-to-use <a href="#terraform-scripts">Terraform scripts</a>.
 <br>
 <br>
-<br>
 ## Prerequisites
 
-### Install Vagrant:
-<br>
+### * Install Vagrant:
 
 To run this Virtual Machine you need first to install Vagrant by HashiCorp
 
@@ -23,7 +21,7 @@ To run this Virtual Machine you need first to install Vagrant by HashiCorp
   ```
 <br>
 
-### Define the connection to your AWS account:
+### * Define the connection to your AWS account:
 
 * Inside your [AWS Console](https://us-east-1.console.aws.amazon.com/):
 1. Create an `AWS IAM User` with Permissions Policies: "`AdministratorAccess`" 
