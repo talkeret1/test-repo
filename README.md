@@ -76,7 +76,7 @@ terraform apply
 Remove all script resources:
 ```bash
 terraform destroy
-```bash
+```
 <br>
 
 <a id="terraform-scripts"></a>
