@@ -2,7 +2,7 @@
 # Vagrant VM: Ubuntu 20.04 + Terraform Engine
 
 Easily creates a Vagrant Virtual Machine with Terraform platform.
-Includes some Terraform scrips ready-to-use.
+Including some Terraform scrips ready-to-use.
 
 <!-- Configuration in this directory creates set of VPC resources which may be sufficient for staging or production environment (look into [simple](../simple) for more simplified setup).
 
@@ -57,10 +57,20 @@ Use `terraform version` to ensure that a the installation was successfull.
 ## Ready-to-Use Terraform Scripts
 
 Inside the VM there is a directory that shared with the host: `/vagrant/terrafrom/`
-
 Inside this folder you can find ready-to-use Terraform scripts.
+Select your desired script and run it.
 
-# Terraform Scripts List:
+* /vagrant/terrafrom/
+```bash
+$ cd 1*
+$ terraform init
+$ terraform apply
+```
+
+Note that this action may create AWS resources which can cost money. 
+Run `terraform destroy` when you don't need these resources.
+
+### Terraform Scripts List:
 
 * [1-UbuntuInstance](/terraform/1-UbuntuInstance/README.md) - AWS Instance with Ubuntu 20.04
 * [2-UbuntuWebServer](/terraform/2-UbuntuWebServer/README.md) - Ubuntu 20.04 with Apache2 HTTP Web Server
