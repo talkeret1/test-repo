@@ -52,7 +52,7 @@ $ vagrant ssh
 <br>
 Setup is done, Your Terraform Machine is ready!
 
-Use `terraform version` to ensure that a the installation was successfull.
+Use `terraform version` to ensure that a the installation was successfull.<br>
 <br>
 <br>
 
@@ -69,7 +69,7 @@ $ terraform init
 $ terraform apply
 ```
 
-:heavy_exclamation_mark: - Note that this action may create AWS resources which can cost money.<br>
+:heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
 <br>
 Run `terraform destroy` when you don't need these resources.
 
