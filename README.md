@@ -38,8 +38,8 @@ Inside your [AWS Console](https://us-east-1.console.aws.amazon.com/):
 Inside the Vagrant directory, execute these commands:
 
 ```bash
-$ vagrant init
-$ vagrant up
+vagrant init
+vagrant up
 ```
 
 ### Log into the Virtual Machine:
@@ -47,7 +47,7 @@ $ vagrant up
 After the VM is up, log in to it:
 
 ```bash
-$ vagrant ssh
+vagrant ssh
 ```
 <br>
 Setup is done, Your Terraform Machine is ready!
@@ -64,9 +64,9 @@ Inside this folder you can find ready-to-use Terraform scripts.<br>
 
 Select your desired script from `/vagrant/terrafrom/` and run it.
 ```bash
-$ cd 1*
-$ terraform init
-$ terraform apply
+cd 1*
+terraform init
+terraform apply
 ```
 
 :heavy_exclamation_mark: Note that this action may create AWS resources which can cost money.<br>
