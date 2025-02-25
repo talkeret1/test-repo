@@ -1,7 +1,6 @@
 <a id="readme-top"></a>
 # Vagrant VM: Ubuntu 20.04 with Terraform Engine
 <br>
-<br>
 
 Easily creates a Vagrant Virtual Machine with Terraform platform.<br>
 <br>
@@ -11,6 +10,7 @@ Including some ready-to-use <a href="#terraform-scripts">Terraform scripts</a>.
 <br>
 ## Prerequisites
 <br>
+
 ### Install Vagrant:
 <br>
 
