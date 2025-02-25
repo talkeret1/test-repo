@@ -48,8 +48,8 @@ After the VM is up, log in to it:
 ```bash
 vagrant ssh
 ```
-* To stop the VM Use: `vagrant halt`
-* To destroy the VM Use: `vagrant destroy`
+* To stop the VM use: `vagrant halt`
+* To destroy the VM use: `vagrant destroy`
 <br>
 Setup is done, Your Terraform Machine is ready!
 
