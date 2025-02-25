@@ -48,6 +48,9 @@ After the VM is up, log in to it:
 ```bash
 vagrant ssh
 ```
+
+### Stop Virtual Machine activity:
+
 * To stop the VM use: `vagrant halt`
 * To destroy the VM use: `vagrant destroy`
 <br>
