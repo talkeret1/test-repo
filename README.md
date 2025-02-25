@@ -51,7 +51,7 @@ vagrant ssh
 
 ### Stop Virtual Machine activity:
 
-* Shutting down a running VM: `vagrant halt`
+* Shutting down a running VM: `vagrant halt` (to start again the VM use `vagrant up`)
 * Destroying the VM: `vagrant destroy`
 <br>
 Setup is done, Your Terraform Machine is ready!
