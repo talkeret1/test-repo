@@ -1,13 +1,18 @@
 <a id="readme-top"></a>
 # Vagrant VM: Ubuntu 20.04 with Terraform Engine
+<br>
+<br>
 
 Easily creates a Vagrant Virtual Machine with Terraform platform.<br>
 <br>
-Include some Ready-to-Use <a href="#terraform-scripts">Terraform scripts</a>
-
+Including some ready-to-use <a href="#terraform-scripts">Terraform scripts</a>.
+<br>
+<br>
+<br>
 ## Prerequisites
-
+<br>
 ### Install Vagrant:
+<br>
 
 To run this Virtual Machine you need first to install Vagrant by HashiCorp
 
