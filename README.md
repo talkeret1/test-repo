@@ -3,13 +3,11 @@
 <br>
 
 Easily creates a Vagrant Virtual Machine with Terraform platform.<br>
-<br>
 Including some ready-to-use <a href="#terraform-scripts">Terraform scripts</a>.
 <br>
 <br>
 <br>
 ## Prerequisites
-<br>
 
 ### Install Vagrant:
 <br>
