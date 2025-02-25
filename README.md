@@ -74,6 +74,7 @@ terraform apply
 
 ### Destroy the script:
 Run `terraform destroy` to remove all script resources.
+
 <br>
 
 <a id="terraform-scripts"></a>
