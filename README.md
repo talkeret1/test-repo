@@ -1,8 +1,7 @@
 <a id="readme-top"></a>
 # Vagrant VM: Ubuntu 20.04 + Terraform Engine
 
-Easily creates a Vagrant Virtual Machine with Terraform platform.
-<br>
+Easily creates a Vagrant Virtual Machine with Terraform platform,<br>
 Including some Terraform scrips ready-to-use.
 
 <!-- Configuration in this directory creates set of VPC resources which may be sufficient for staging or production environment (look into [simple](../simple) for more simplified setup).
