@@ -49,7 +49,7 @@ After the VM is up, log in to it:
 vagrant ssh
 ```
 
-### ❌ Stop Virtual Machine activity:
+### Stop Virtual Machine activity:
 
 * Shutting down a running VM: `vagrant halt`
 * Destroying the VM: `vagrant destroy`
